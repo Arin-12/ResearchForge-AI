@@ -1,0 +1,6 @@
+google-adk
+litellm>=1.84.0
+python-dotenv
+arxiv
+requests
+rich

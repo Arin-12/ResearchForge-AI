@@ -1,0 +1,31 @@
+@"
+.env
+.env.*
+!.env.example
+
+test_env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+.idea/
+.vscode/
+
+*.log
+.DS_Store
+Thumbs.db
+
+# Local utility scripts - excluded from public repository
+/create_zip.py
+/test_structure.py
+
+# Generated research reports (except selected public examples)
+/outputs/*.md
+
+# Generated research reports - keep only selected examples
+/outputs/*.md
+!/outputs/Detecting_AI-Generated_and_Manipulated_Academic_Content_Usin_20261115_125436.md
+!/outputs/Explainable_AI_for_Early_Detection_of_Cardiovascular_Disease_20261114_123807.md
